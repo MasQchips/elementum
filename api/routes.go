@@ -4,7 +4,6 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/masqchips/elementum/api/repository"
 	"github.com/masqchips/elementum/bittorrent"
 	"github.com/masqchips/elementum/config"
 	"github.com/masqchips/elementum/providers"
@@ -273,12 +272,6 @@ func Routes(s *bittorrent.Service) *gin.Engine {
 	{
 		allproviders.GET("/enable", ProvidersEnableAll)
 		allproviders.GET("/disable", ProvidersDisableAll)
-	}
-
-	repo := r.Group("/repository")
-	{
-		repo.GET("/:user/:repository/*filepath", repository.GetAddonFiles)
-		repo.HEAD("/:user/:repository/*filepath", repository.GetAddonFilesHead)
 	}
 
 	trakt := r.Group("/trakt")

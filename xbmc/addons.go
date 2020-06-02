@@ -107,20 +107,6 @@ type AddonText struct {
 	Lang string `xml:"lang,attr"`
 }
 
-// AddonRepositoryInfo ...
-type AddonRepositoryInfo struct {
-	XMLName    xml.Name `xml:"info"`
-	Text       string   `xml:",chardata"`
-	Compressed bool     `xml:"compressed,attr"`
-}
-
-// AddonRepositoryDataDir ...
-type AddonRepositoryDataDir struct {
-	XMLName xml.Name `xml:"datadir"`
-	Text    string   `xml:",chardata"`
-	Zip     bool     `xml:"zip,attr"`
-}
-
 // AddonSkinResolution ...
 type AddonSkinResolution struct {
 	XMLName xml.Name `xml:"res"`
@@ -157,12 +143,6 @@ type AddonExtension struct {
 	Summaries    []*AddonText `xml:"summary,omitempty"`
 	Disclaimers  []*AddonText `xml:"disclaimer,omitempty"`
 	Descriptions []*AddonText `xml:"description,omitempty"`
-
-	// xbmc.addon.repository
-	Name     string                  `xml:"name,attr,omitempty"`
-	Info     *AddonRepositoryInfo    `xml:"info,omitempty"`
-	Checksum string                  `xml:"checksum,omitempty"`
-	Datadir  *AddonRepositoryDataDir `xml:"datadir,omitempty"`
 
 	// xbmc.gui.skin
 	DefaultResolution     string                 `xml:"defaultresolution,omitempty"`
