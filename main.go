@@ -196,16 +196,6 @@ func main() {
 		}
 	}()
 
-	go func() {
-		if checkRepository() {
-			log.Info("Updating Kodi add-on repositories... ")
-			xbmc.UpdateAddonRepos()
-		}
-
-		xbmc.DialogProgressBGCleanup()
-		xbmc.ResetRPC()
-	}()
-
 	go library.Init()
 	go trakt.TokenRefreshHandler()
 	go db.MaintenanceRefreshHandler()
