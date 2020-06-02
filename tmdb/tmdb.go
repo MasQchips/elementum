@@ -7,10 +7,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/elgatito/elementum/cache"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/cache"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 	"github.com/jmcvetta/napping"
 	"github.com/op/go-logging"
 )

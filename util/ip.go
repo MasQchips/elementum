@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elgatito/elementum/config"
+	"github.com/masqchips/elementum/config"
 
 	"github.com/gin-gonic/gin"
 )

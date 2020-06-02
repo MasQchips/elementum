@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/elgatito/elementum/api/repository"
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/providers"
+	"github.com/masqchips/elementum/api/repository"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/providers"
 
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"

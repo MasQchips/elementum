@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 func imageURL(path string) string {

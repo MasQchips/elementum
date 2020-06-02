@@ -10,8 +10,8 @@ import (
 	"github.com/klauspost/compress/gzip"
 	"github.com/vmihailenco/msgpack"
 
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/util"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/util"
 )
 
 //go:generate msgp -o msgp.go -io=false -tests=false

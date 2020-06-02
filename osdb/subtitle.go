@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elgatito/elementum/proxy"
+	"github.com/masqchips/elementum/proxy"
 )
 
 // A Subtitle with its many OSDB attributes...

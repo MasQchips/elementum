@@ -11,11 +11,11 @@ import (
 	"github.com/op/go-logging"
 	"github.com/zeebo/bencode"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 const (

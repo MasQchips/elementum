@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/providers"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/providers"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 var searchLog = logging.MustGetLogger("search")

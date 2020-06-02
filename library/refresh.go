@@ -15,12 +15,12 @@ import (
 	"github.com/cespare/xxhash"
 	"github.com/karrick/godirwalk"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/playcount"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/trakt"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/playcount"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/trakt"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 var (

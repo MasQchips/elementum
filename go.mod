@@ -1,4 +1,4 @@
-module github.com/elgatito/elementum
+module github.com/masqchips/elementum
 
 go 1.14
 

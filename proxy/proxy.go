@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/elgatito/elementum/config"
+	"github.com/masqchips/elementum/config"
 
 	"github.com/ElementumOrg/cfbypass"
 	"github.com/elazarl/goproxy"

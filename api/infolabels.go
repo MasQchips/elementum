@@ -13,11 +13,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sanity-io/litter"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/library"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/library"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elgatito/elementum/util"
+	"github.com/masqchips/elementum/util"
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )

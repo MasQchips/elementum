@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 // PacStorage ...

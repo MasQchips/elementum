@@ -6,9 +6,9 @@ import (
 	"github.com/anacrolix/missinggo/perf"
 	"github.com/gin-gonic/gin"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 func init() {

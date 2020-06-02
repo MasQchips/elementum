@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/anacrolix/missinggo/perf"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/proxy"
+	"github.com/masqchips/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 )

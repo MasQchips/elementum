@@ -12,13 +12,13 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/gin-gonic/gin"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/library"
-	"github.com/elgatito/elementum/proxy"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/library"
+	"github.com/masqchips/elementum/proxy"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 // Changelog display

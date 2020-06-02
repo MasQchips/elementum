@@ -14,9 +14,9 @@ import (
 	"github.com/anacrolix/missinggo/perf"
 	"github.com/boltdb/bolt"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 // InitCacheDB ...

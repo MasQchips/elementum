@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 func copyFile(from string, to string) error {
@@ -44,12 +44,12 @@ func MakeElementumRepositoryAddon() error {
 				Point: "xbmc.addon.repository",
 				Name:  addonName,
 				Info: &xbmc.AddonRepositoryInfo{
-					Text:       elementumHost + "/repository/elgatito/plugin.video.elementum/addons.xml",
+					Text:       elementumHost + "/repository/masqchips/plugin.video.elementum/addons.xml",
 					Compressed: false,
 				},
-				Checksum: elementumHost + "/repository/elgatito/plugin.video.elementum/addons.xml.md5",
+				Checksum: elementumHost + "/repository/masqchips/plugin.video.elementum/addons.xml.md5",
 				Datadir: &xbmc.AddonRepositoryDataDir{
-					Text: elementumHost + "/repository/elgatito/",
+					Text: elementumHost + "/repository/masqchips/",
 					Zip:  true,
 				},
 			},

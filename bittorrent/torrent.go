@@ -27,11 +27,11 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"github.com/zeebo/bencode"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 // Torrent ...

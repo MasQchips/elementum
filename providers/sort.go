@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/elgatito/elementum/bittorrent"
-	"github.com/elgatito/elementum/config"
+	"github.com/masqchips/elementum/bittorrent"
+	"github.com/masqchips/elementum/config"
 )
 
 // BySeeds ...

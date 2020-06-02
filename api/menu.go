@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/xbmc"
 	"github.com/gin-gonic/gin"
 )
 

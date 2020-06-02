@@ -21,17 +21,17 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/sanity-io/litter"
 
-	"github.com/elgatito/elementum/broadcast"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/diskusage"
-	"github.com/elgatito/elementum/library"
-	"github.com/elgatito/elementum/osdb"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/trakt"
-	"github.com/elgatito/elementum/tvdb"
-	"github.com/elgatito/elementum/util"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/broadcast"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/diskusage"
+	"github.com/masqchips/elementum/library"
+	"github.com/masqchips/elementum/osdb"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/trakt"
+	"github.com/masqchips/elementum/tvdb"
+	"github.com/masqchips/elementum/util"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 const (

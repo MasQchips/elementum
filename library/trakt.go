@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/cespare/xxhash"
-	"github.com/elgatito/elementum/cache"
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/tmdb"
-	"github.com/elgatito/elementum/trakt"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/cache"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/tmdb"
+	"github.com/masqchips/elementum/trakt"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 var (

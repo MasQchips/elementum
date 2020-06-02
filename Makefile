@@ -66,7 +66,7 @@ endif
 
 PROJECT = elementumorg
 NAME = elementum
-GO_PKG = github.com/elgatito/elementum
+GO_PKG = github.com/masqchips/elementum
 GO = go
 GIT = git
 DOCKER = docker
@@ -210,7 +210,7 @@ libs: force
 
 binaries:
 	git config --global push.default simple
-	git clone --depth=1 https://github.com/elgatito/elementum-binaries binaries
+	git clone --depth=1 https://github.com/masqchips/elementum-binaries binaries
 	cp -Rf build/* binaries/
 	cd binaries && git add * && git commit -m "Update to ${GIT_VERSION}"
 

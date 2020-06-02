@@ -1,4 +1,4 @@
-Elementum daemon [![Build Status](https://travis-ci.org/elgatito/elementum.svg?branch=master)](https://travis-ci.org/elgatito/elementum)
+Elementum daemon [![Build Status](https://travis-ci.org/m/elementum.svg?branch=master)](https://travis-ci.org/masqchips/elementum)
 ======
 
 Fork of the great [Pulsar daemon](https://github.com/steeve/pulsar) and [Quasar daemon](https://github.com/scakemyer/quasar)
@@ -24,7 +24,7 @@ Fork of the great [Pulsar daemon](https://github.com/steeve/pulsar) and [Quasar 
 3. go get
 
     ```
-    go get -d github.com/elgatito/elementum
+    go get -d github.com/masqchips/elementum
     ```
 
     For Windows support, but required for all builds, you also need:

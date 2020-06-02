@@ -4,10 +4,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/op/go-logging"
 
-	"github.com/elgatito/elementum/config"
-	"github.com/elgatito/elementum/database"
-	"github.com/elgatito/elementum/library"
-	"github.com/elgatito/elementum/xbmc"
+	"github.com/masqchips/elementum/config"
+	"github.com/masqchips/elementum/database"
+	"github.com/masqchips/elementum/library"
+	"github.com/masqchips/elementum/xbmc"
 )
 
 var cmdLog = logging.MustGetLogger("cmd")
